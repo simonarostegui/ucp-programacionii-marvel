@@ -1,4 +1,7 @@
-public class Personaje{
+using System;
+
+
+public abstract class Personaje{
 
     #region Atributos
 
@@ -61,8 +64,8 @@ public class Personaje{
 
     #region metodos
 
-    public void Atacar(Personaje p){
-        
+    public virtual void Atacar(Personaje p){
+        Console.WriteLine(p.GetNombre() + "Se preprara para atacar");
     }
 
     #endregion

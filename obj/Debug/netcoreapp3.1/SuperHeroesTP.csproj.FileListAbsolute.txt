@@ -1,0 +1,13 @@
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\bin\Debug\netcoreapp3.1\SuperHeroesTP.exe
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\bin\Debug\netcoreapp3.1\SuperHeroesTP.deps.json
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\bin\Debug\netcoreapp3.1\SuperHeroesTP.runtimeconfig.json
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\bin\Debug\netcoreapp3.1\SuperHeroesTP.runtimeconfig.dev.json
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\bin\Debug\netcoreapp3.1\SuperHeroesTP.dll
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\bin\Debug\netcoreapp3.1\SuperHeroesTP.pdb
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.csprojAssemblyReference.cache
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.AssemblyInfoInputs.cache
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.AssemblyInfo.cs
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.dll
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.pdb
+C:\Users\Max\Documents\Programacion II\SuperHeroesTP\obj\Debug\netcoreapp3.1\SuperHeroesTP.genruntimeconfig.cache

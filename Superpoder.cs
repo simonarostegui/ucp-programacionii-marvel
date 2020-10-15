@@ -1,3 +1,5 @@
+using System;
+
 public class Superpoder{
 
     #region Atributos

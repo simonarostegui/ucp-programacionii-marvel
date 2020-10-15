@@ -1,4 +1,7 @@
 ﻿using System;
+// El metodo atacar deberia ser Virtual ya que los atauqes de los heroes afectan a los villanos y los de los villanos a los heroes. 
+//Por lo tanto al ser ataques diferentes es mejor usar un metodo virtual ya que el contenidos de los metodos seran diferentes tambien.
+
 
 namespace SuperHeroesTP
 {
@@ -8,8 +11,10 @@ namespace SuperHeroesTP
         {
             Villano Vil = new Villano();
             Superheroe Super = new Superheroe();
-            Personaje Ganador = new Personaje();
-            Combate Comb = new Combate(Super,Vil,Ganador,5);
+            Combate Comb = new Combate(Super,Vil,5);
+            Super.Atacar(Vil);
+            Vil.Atacar(Super);
+
         }
     }
 }

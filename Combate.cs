@@ -1,10 +1,10 @@
+using System;
 public class Combate{
 
     #region Atributos
 
     private Superheroe Superheroe;
     private Villano Villano;
-    private Personaje Ganador;
     private int CantidadDeUsosSuperpoder;
 
 
@@ -14,14 +14,12 @@ public class Combate{
     public Combate(){
         this.Superheroe=new Superheroe();
         this.Villano=new Villano();
-        this.Ganador=new Personaje();
         this.CantidadDeUsosSuperpoder=0;
     }
 
-    public Combate(Superheroe super, Villano vil, Personaje gan, int usos){
+    public Combate(Superheroe super, Villano vil, int usos){
         this.Superheroe=super;
         this.Villano=vil;
-        this.Ganador=gan;
         this.CantidadDeUsosSuperpoder=usos;
     }
     #endregion
@@ -35,9 +33,7 @@ public class Combate{
     public void SetVillano(Villano vil){
         this.Villano=vil;
     }
-    public void SetGanador(Personaje gan){
-        this.Ganador=gan;
-    }
+
     public void SetCantidadDeUsosSuperpoder(int cant){
         this.CantidadDeUsosSuperpoder=cant;
     }
@@ -48,9 +44,6 @@ public class Combate{
 
     public Villano GetVillano(){
         return this.Villano;
-    }
-    public Personaje GetGanador(){
-        return this.Ganador;
     }
     public int GetCantidadDeUsosSuperpoder(){
         return this.CantidadDeUsosSuperpoder;
@@ -65,7 +58,7 @@ public class Combate{
         
     }
     public void Terminar(){
-
+        
     }
     public void Turno(Personaje p){
         
